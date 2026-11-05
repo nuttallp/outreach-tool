@@ -3,3 +3,17 @@ output/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Local credentials and generated state
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+node_modules/
+.venv/
